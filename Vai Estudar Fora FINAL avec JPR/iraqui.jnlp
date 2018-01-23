@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<jnlp spec="1.0+" codebase="http://cipcgw.insa-lyon.fr/~asantosnet/LA/" href="iraqui.jnlp">
+   <information>
+      <title>Iraqui</title>
+      <vendor>OUSSAMA</vendor>
+      <description>PROJET</description>
+   </information>
+   <security> 
+            <all-permissions/>
+   </security>
+   <resources>
+      <j2se version="1.4+"/>
+      <jar href="archive9.jar" main="true" download="eager"/>
+	  <jar href="mysql-connector-java-5.1.30-bin.jar"/>
+	  <extension name="worldwindx" href="http://worldwind.arc.nasa.gov/java/2.0.0/webstart/worldwindx.jnlp"/>
+	  <extension name="gdal" href="http://worldwind.arc.nasa.gov/java/2.0.0/webstart/gdal.jnlp"/>
+	  <extension name="worldwind" href="http://worldwind.arc.nasa.gov/java/2.0.0/webstart/worldwind.jnlp"/>
+   </resources>
+   
+   <application-desc main-class="InterfaceGraficaAlgoritimo.Application1"/>
+</jnlp>
